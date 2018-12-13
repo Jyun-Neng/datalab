@@ -159,7 +159,7 @@ int allEvenBits(int x)
  */
 int allOddBits(int x)
 {
-    x &= x >> 16;
+  x &= x >> 16;
     x &= x >> 8;
     x &= x >> 4;
     x &= x >> 2;
